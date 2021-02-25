@@ -1,0 +1,222 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: sans-serif
+ }
+ 
+ .container {
+     max-width: 1219px;
+     padding-left: 55px;
+     padding-right: 55px;
+     margin: 0 auto;
+ }
+ 
+ .header {
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     z-index: 1000;
+     background-color: #007765;
+ }
+ 
+ .header-box {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .main-logo {
+     padding-top: 20px;
+     padding-bottom: 18px;
+ }
+ 
+ .menu {
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 28px;
+     display: flex;
+     list-style-type: none;
+ }
+ 
+ .menu_decoration {
+     margin-left: 8px;
+     margin-right: 8px;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #FFFFFF;
+ }
+ 
+ li {
+     display: inline-block;
+ }
+ 
+ .top {
+     width: 100%;
+     height: 403px;
+     margin-top: 84px;
+     background-image: url(images/Green_background.png);
+     background-position: center;
+     background-size: cover;
+     margin-bottom: 48px;
+ }
+ 
+ .top__title {
+     font-weight: 500;
+     font-size: 72px;
+     line-height: 84px;
+     text-align: center;
+     color: #FFFFFF;
+     padding-top: 160px;
+     padding-bottom: 160px;
+ }
+ 
+ .title {
+     font-weight: 500;
+     font-size: 64px;
+     line-height: 75px;
+     text-align: center;
+     color: #007765;
+ }
+ 
+ .text {
+     font-size: 32px;
+     line-height: 37px;
+     color: #000000;
+     margin-top: 16px;
+ }
+ 
+ .slogan__text {
+     font-style: italic;
+     max-width: 893px;
+     font-weight: 500;
+     font-size: 48px;
+     line-height: 56px;
+     text-align: center;
+     color: #FFFFFF;
+     padding-top: 128px;
+     padding-bottom: 128px;
+     margin: auto;
+ }
+ 
+ .slogan {
+     width: 100%;
+     background-size: cover;
+     background-position: center center;
+     background-image: url(images/Blue_background.png);
+     margin-top: 92px;
+ }
+ 
+ .bottom-content {
+     padding-top: 48px;
+ }
+ 
+ .bottom-content__logo {
+     float: left;
+     padding-right: 48px;
+     padding-bottom: 35px;
+ }
+ 
+ .the_team {
+     background: #EEEEEE;
+     padding-bottom: 90px;
+     padding-top: 58px;
+     margin-top: 92px;
+ }
+ 
+ .members {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+ }
+ 
+ .photo {
+     flex-basis: 33%;
+     text-align: center;
+     box-sizing: border-box;
+     padding-top: 40px;
+     padding: 30px;
+     margin-bottom: 30px;
+ }
+ 
+ .name {
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 28px;
+     margin-top: 12px;
+     color: #007765;
+     text-align: center;
+ }
+ 
+ .position {
+     height: 22px;
+     font-style: italic;
+     font-size: 18px;
+     line-height: 21px;
+     color: #000000;
+     text-align: center;
+ }
+ 
+ .footer {
+     height: 176px;
+     width: 100%;
+     background-color: #333333;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .footer__text {
+     max-width: 540px;
+     font-size: 18px;
+     line-height: 21px;
+     text-align: center;
+     color: #FFFFFF;
+     margin: auto;
+ }
+ 
+ @media (max-width:1024px) {
+     .members {
+         flex-direction: column;
+     }
+ }
+ 
+ @media (max-width:667px) {
+     .container {
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     .menu {
+         display: none;
+     }
+     .text {
+         font-size: 16px;
+         line-height: 25px;
+     }
+     .title {
+         font-size: 25px;
+         line-height: 35px;
+     }
+     .slogan__text {
+         font-size: 25px;
+         line-height: 30px;
+         padding-top: 40px;
+         padding-bottom: 40px;
+     }
+     .top__title {
+         font-size: 30px;
+     }
+     .name {
+         font-size: 18px;
+         line-height: 21px;
+     }
+     .position {
+         font-size: 16px;
+         line-height: 21px;
+     }
+ }
